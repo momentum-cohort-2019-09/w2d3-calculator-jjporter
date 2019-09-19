@@ -1,0 +1,109 @@
+*{
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+    margin: auto;
+    margin-top: 60px;
+    max-width: 50%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+        "clear output output output"
+        "seven eight nine divide"
+        "four five six multiplication"
+        "one two three minus"
+        "zeros decimals equal addition";
+}
+
+button {
+    background-color: rgb(95, 170, 95);
+    height: 100px;
+    font-size: 2rem;
+}
+
+#clear {
+    grid-area: clear;
+}
+
+#output {
+    grid-area: output;
+    background-color: rgb(95, 170, 95);
+}
+
+#seven {
+    grid-area: seven;
+}
+
+#eight {
+    grid-area: eight;
+}
+
+#nine {
+    grid-area: nine;
+}
+
+#divide {
+    grid-area: divide;
+    background-color: rgb(119, 201, 119);
+}
+
+#four {
+    grid-area: four;
+}
+
+#five {
+    grid-area: five;
+}
+
+#six {
+    grid-area: six;
+}
+
+#multiply {
+    grid-area: multiplication;
+    background-color: rgb(119, 201, 119);
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+
+#subtract {
+    grid-area: minus;
+    background-color: rgb(119, 201, 119);
+}
+
+#zero {
+    grid-area: zeros;
+}
+
+#dot {
+    grid-area: decimals;
+}
+
+#equals {
+    grid-area: equal;
+}
+
+#add {
+    grid-area: addition;
+    background-color: rgb(119, 201, 119);
+}
+
+button:hover {
+    background-color: rgb(23, 85, 23);
+}
+
+
+
